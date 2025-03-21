@@ -10,9 +10,6 @@
 <header>
     <h1>Chat Application</h1>
     <a href="index.php">Accueil</a>
-    <a href="chat.php">Chat</a>
-    <a href="users.php">Utilisateurs</a>
-    <a href="login.php">Se connecte</a>
     <?php if (isset($_SESSION['user_id'])): ?>
         <a href="logout.php">Se déconnecter</a>
     <?php endif; ?>
