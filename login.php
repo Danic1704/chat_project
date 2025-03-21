@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'db/conect.php';
+include 'db/connect.php';
 include 'partials/header.php';
 ?>
 <div class="container">
