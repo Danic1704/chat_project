@@ -1,0 +1,20 @@
+/* Style général du footer */
+footer {
+    background-color: #2c3e50; /* Couleur de fond sombre */
+    color: #ffffff; /* Texte blanc */
+    text-align: center; /* Centrer le texte */
+    padding: 1rem 0; /* Espacement intérieur */
+    position: fixed; /* Fixer le footer en bas de la page */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Largeur pleine page */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Ombre portée en haut */
+    z-index: 1000; /* S'assurer que le footer est au-dessus des autres éléments */
+}
+
+/* Paragraphe dans le footer */
+footer p {
+    margin: 0; /* Supprimer la marge par défaut */
+    font-size: 0.9rem; /* Taille de police */
+    color: #ecf0f1; /* Couleur de texte légèrement grise */
+}
