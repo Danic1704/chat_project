@@ -1,5 +1,6 @@
 <?php
 session_start();
+include 'db/conect.php';
 include 'partials/header.php';
 ?>
 <div class="container">
